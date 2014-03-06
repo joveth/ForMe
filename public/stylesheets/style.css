@@ -107,6 +107,8 @@ a {
 	margin: 0 0 20px;
 	color: #9b8878;
 }
+
+
 .hil_text{
 	word-break: break-all;
 	line-height: 160%;
@@ -115,5 +117,129 @@ a {
 }
 .hil_infor p{
 	margin-bottom: 1em;
+}
+.menu{
+	background:#c32931;
+	width:60px;
+	position:fixed;
+	left:50px;
+	top:50%;
+	margin-top:-160px;
+	z-index:903;
+	color: #FFF;
+	text-align:center;
+	border-radius: 4px;
+	font-size:12px;
+}
+.menu>div {
+	background: transparent url("../images/dot-line.png") repeat-x left top;
+	padding: 15px 0 17px;
+}
+.b1 {
+	font-size: 15px;
+}
+.b1 {
+	text-align: center;
+	margin-bottom: 8px;
+	overflow: visible;
+	width: 48px;
+	height: 30px;
+	position: relative;
+	background: #fff;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+.b1:after, .b1:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.b1:before {
+	border-color: rgba(192,192,192,0);
+	border-top-color: #ccc;
+	border-width: 5px;
+	margin-left: -5px;
+}
+.b1 .IY {
+	padding-top: 6px;
+}
+.B8 {
+	vertical-align: top;
+	color: #666;
+}
+.menu-icon{
+	display: block;
+	background: transparent url('../images/menu-sprite.svg') 0 0 no-repeat;
+	background-size: auto 100%;
+	height: 60px;
+	width: 60px;
+	cursor: pointer;
+}
+.java-icon{
+	position:fixed;
+	right:180px;
+	top:20px;
+	transform:rotate(-33.33333deg);
+	-ms-transform:rotate(-33.33333deg); /* Internet Explorer */
+	-moz-transform:rotate(-33.33333deg); /* Firefox */
+	-webkit-transform:rotate(-33.33333deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-33.33333deg); 
+}
+.java-icon img{
+	width:96px;
+}
+.android-icon{
+	position:fixed;
+	right:60px;
+	top:100px;
+	transform:rotate(14.33333deg);
+	-ms-transform:rotate(14.33333deg); /* Internet Explorer */
+	-moz-transform:rotate(14.33333deg); /* Firefox */
+	-webkit-transform:rotate(14.33333deg); /* Safari 和 Chrome */
+	-o-transform:rotate(14.33333deg); 
+}
+.android-icon img{
+	width:72px;
+}
+.nodejs-icon{
+	position:fixed;
+	right:100px;
+	top:180px;
+	transform:rotate(-5.33333deg);
+	-ms-transform:rotate(-5.33333deg); /* Internet Explorer */
+	-moz-transform:rotate(-5.33333deg); /* Firefox */
+	-webkit-transform:rotate(-5.33333deg); /* Safari 和 Chrome */
+	-o-transform:rotate(-5.33333deg); 
+}
+.nodejs-icon img{
+	width:128px;
+}
+.mongodb-icon{
+	position:fixed;
+	right:140px;
+	top:220px;
+	transform:rotate(5.33333deg);
+	-ms-transform:rotate(5.33333deg); /* Internet Explorer */
+	-moz-transform:rotate(5.33333deg); /* Firefox */
+	-webkit-transform:rotate(5.33333deg); /* Safari 和 Chrome */
+	-o-transform:rotate(5.33333deg); 
+}
+.mongodb-icon img{
+	width:128px;
+}
+
+.angular-icon{
+	position:fixed;
+	right:100px;
+	top:280px;
+}
+.angular-icon img{
+	width:50px;
 }
 
