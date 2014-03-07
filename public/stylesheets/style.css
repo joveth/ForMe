@@ -119,7 +119,7 @@ a {
 	margin-bottom: 1em;
 }
 .menu{
-	background:#c32931;
+	background:#F8404A;
 	width:60px;
 	position:fixed;
 	left:50px;
@@ -132,7 +132,7 @@ a {
 	font-size:12px;
 }
 .menu>div {
-	background: transparent url("../images/dot-line.png") repeat-x left top;
+	background: url("../images/dot-line.png") repeat-x left top;
 	padding: 15px 0 17px;
 }
 .b1 {
@@ -242,4 +242,18 @@ a {
 .angular-icon img{
 	width:50px;
 }
-
+.base_infor {
+	overflow: visible;
+	position: relative;
+	cursor: pointer;
+	
+}
+.base_infor:hover{
+	background:#c32931;
+}
+.other:hover{
+	color:#E9D963;
+}
+.hil_infor a{
+	text-decoration:underline;
+}
