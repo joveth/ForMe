@@ -257,3 +257,8 @@ a {
 .hil_infor a{
 	text-decoration:underline;
 }
+.backBar{
+	margin-top:-20px;
+	cursor: pointer;
+}
+

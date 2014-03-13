@@ -20,6 +20,9 @@ module.exports = function(app) {
 		  });
 	  });
   });
+  app.get('/comm', function (req, res) {
+	  res.render('comm',{});
+  });
 };
 
 /*
